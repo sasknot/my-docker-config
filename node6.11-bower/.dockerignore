@@ -1,0 +1,8 @@
+.DS_Store
+.git
+
+Dockerfile
+npm-debug.log
+
+node_modules
+bower_components
