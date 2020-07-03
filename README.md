@@ -3,8 +3,7 @@
 
 ## Requirements
 
-- Docker
-
+- [Docker](https://www.docker.com)
 
 ## Running
 
@@ -12,15 +11,14 @@
 2. Run `docker build -t myconfig .`
 3. Run `docker run -p 80:80 myconfig`
 
+### Node
 
-### Node 6.11 with Bower
+- Node 14.5.0
+- sudo
 
-- Node 6.11
+### PHP with Apache
 
-
-### PHP 7.0 with Apache
-
-- Apache latest (with rewrite, headers, setenvif)
+- Apache 2 (with rewrite, headers, setenvif)
 - PHP 7.0 (with mcrypt, mysqli, pdo, pdo_mysql, intl, mbstring, gd, memcached)
 - libmcrypt-dev
 - libicu-dev
@@ -28,8 +26,7 @@
 - libmemcached-dev zlib1g-dev
 - vim
 
-
-### Ruby 2.1
+### Ruby
 
 - Ruby 2.1
 - libpq-dev

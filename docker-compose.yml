@@ -1,0 +1,27 @@
+version: "3"
+services:
+  node:
+    build:
+      dockerfile: ./node/Dockerfile
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/var/www
+      - /var/www/node_modules
+
+  php:
+    build:
+      dockerfile: ./php/Dockerfile
+    ports:
+      - "80:4000"
+    volumes:
+      - ./app:/var/www
+
+  ruby:
+    build:
+      dockerfile: ./ruby/Dockerfile
+    ports:
+      - "80:5000"
+    volumes:
+      - ./app:/var/www
