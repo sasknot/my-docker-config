@@ -19,10 +19,9 @@
 ### PHP with Apache
 
 - Apache 2 (with rewrite, headers, setenvif)
-- PHP 7.0 (with mcrypt, mysqli, pdo, pdo_mysql, intl, mbstring, gd, memcached)
+- PHP 7.0 (with mysqli, pdo, pdo_mysql, intl, memcached, mcrypt)
 - libmcrypt-dev
 - libicu-dev
-- libfreetype6-dev libjpeg62-turbo-dev libpng12-dev
 - libmemcached-dev zlib1g-dev
 - vim
 
